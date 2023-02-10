@@ -284,6 +284,11 @@ $(document).ready(function () {
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[17])[2][1]);
         });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
+        });
     });
     $("#fencealley").click(function () {
         $("#titleofmodal").html("Fence Alley");
@@ -293,6 +298,11 @@ $(document).ready(function () {
         });
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[18])[2][1]);
+        });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
         });
     });
     $("#littlemoot").click(function () {
@@ -304,6 +314,11 @@ $(document).ready(function () {
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[19])[2][1]);
         });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
+        });
     });
     $("#merchantsquarter").click(function () {
         $("#titleofmodal").html("Merchants' Quarter");
@@ -313,6 +328,11 @@ $(document).ready(function () {
         });
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[20])[2][1]);
+        });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
         });
     });
     $("#marketsquare").click(function () {
