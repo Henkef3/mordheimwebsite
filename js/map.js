@@ -134,6 +134,11 @@ $(document).ready(function () {
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[7])[2][1]);
         });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
+        });
     });
     $("#memorialgardens").click(function () {
         $("#titleofmodal").html("Memorial Gardens");
@@ -219,6 +224,11 @@ $(document).ready(function () {
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[13])[2][1]);
         });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
+        });
     });
     $("#thegaol").click(function () {
         $("#titleofmodal").html("The Gaol");
@@ -228,6 +238,11 @@ $(document).ready(function () {
         });
         $(".modal-body").html(function(i, html) {
             return html.replace("Dominant_Warbands",  Object.entries(allobjects[14])[2][1]);
+        });
+
+        $("#myModal").show();
+        $(".modal").click(function () {
+            $('#myModal').hide();
         });
     });
     $("#amphitheatre").click(function () {
